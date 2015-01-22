@@ -1,0 +1,41 @@
+{ "name": "sfw_model",
+  "description": "Sequitur framework Model module. Simple, logical, and asynchronous object relation mapping.",
+  "version": "0.0.1",
+  "latest": "0.0.1",
+  "author": "Andrew Carpenter",
+  "homepage": "http://github.com/musocrat/sfw_model",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/musocrat/sfw_model.git"
+  },
+  "bugs": {
+    "url": "http://github.com/musocrat/sfw_model/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/musocrat/grunt/sfw_model/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "dist": "grunt dist"
+  },
+  "dependencies": {
+    "nedb": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^1.0.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-newer": "^1.1.0",
+    "grunt-contrib-coffee": "^0.12.0"
+  },
+  "main": "lib/sfw_model.js",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
